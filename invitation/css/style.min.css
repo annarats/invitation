@@ -5162,7 +5162,7 @@ footer {
         padding: 0!important;
     }
     .down{
-        display: none;
+        display: none!important;
     }
     .heading{
         font-size: 42px;
