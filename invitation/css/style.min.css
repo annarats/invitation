@@ -5055,15 +5055,15 @@ p {
 footer {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("../img/bg-footer.png")
 }
-.bg-img-cover{background:url(../img/1.png) center center / cover no-repeat}
+.bg-img-cover{background:url(../img/1.webp) center center / cover no-repeat}
 #the-couple{
     overflow: hidden;
-    background:url(../img/bg.png) center center / cover no-repeat;
+    background:url(../img/bg.webp) center center / cover no-repeat;
 }
 #photos{
-    background:url(../img/bg.png) center center / cover no-repeat;
+    background:url(../img/bg.webp) center center / cover no-repeat;
 }
-.bg-cover{background:url(../img/location.png) center center / cover no-repeat}
+.bg-cover{background:url(../img/location.webp) center center / cover no-repeat}
 .leaf{
     position: absolute;
     top: 0%;
@@ -5160,7 +5160,9 @@ footer {
     }
     #hero{
         padding: 0!important;
-        height: 100vh;
+    }
+    .down{
+        display: none;
     }
     .heading{
         font-size: 42px;
