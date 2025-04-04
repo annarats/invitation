@@ -25,16 +25,34 @@
                         <h2 class="font-alt m-0 text-center">Данил <br>
                             и <br>
                             Анна</h2>
+                        <div class="audio-trigger">
+                            <img src="img/brush_button.png" alt="Play Button" id="playBrush" />
+                            <audio id="bgMusic" src="audio/song.mp3"></audio>
+                        </div>
+                        <!-- <button class="button" onclick="toggleAudio(this)">
+                            <span class="icon">
+                                <img src="img/paint-brush_11256660.png" alt="">
+                            </span>
+                        </button>
+                        <audio id="audio" src="audio/song.mp3"></audio> -->
                     </div>
                 </div>
             </div>
-            <div class="down">
-                <p class="text-white semi fst-italic">Листайте вниз</p>
-                <p class="timeless text-white">^</p>
-            </div>
         </div>
-    </section>
-    
+    </section>    
+    <script>
+        const brush = document.getElementById('playBrush');
+const audio = document.getElementById('bgMusic');
+
+brush.addEventListener('click', () => {
+  if (audio.paused) {
+    audio.play();
+  } else {
+    audio.pause();
+  }
+});
+
+    </script>
     <section id="the-couple" class="position-relative">
         <div class="container">
             <div class="row mb-5">
