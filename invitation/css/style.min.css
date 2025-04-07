@@ -5217,7 +5217,7 @@ footer {
     border-radius: 50%;
     width: 60px;
     height: 60px;
-    font-size: 1.4rem;
+    font-size: 2rem;
     padding: 14px;
     color: white;
     display: flex;
@@ -5228,9 +5228,7 @@ footer {
     z-index: 2;
   }
   #playIcon {
-    height: 100%;
-    width: 100%;
-    text-align: center;
+    line-height: 1;
   }
   .play-btn:hover {
     background: rgba(255, 255, 255, 0.4);
