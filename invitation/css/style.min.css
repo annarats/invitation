@@ -5174,7 +5174,7 @@ footer {
 }
 @media(max-width:480px){
     .icon-event::after {
-        height: 140px;
+        height: 120px;
     }
 }
 @keyframes moveArrow {
