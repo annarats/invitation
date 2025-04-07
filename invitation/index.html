@@ -22,37 +22,19 @@
             <div class="row g-0 justify-content-center align-items-center content">
                 <div class="square col-lg-8 px-4 py-5 position-relative align-items-center rounded shadow text-white">
                     <div class="align-items-center d-flex justify-content-center mb-2 column">
-                        <h2 class="font-alt m-0 text-center">Данил <br>
-                            и <br>
-                            Анна</h2>
-                        <div class="audio-trigger">
-                            <img src="img/brush_button.png" alt="Play Button" id="playBrush" />
+                        <h2 class="font-alt m-0 text-center">Данил</h2>
+                        <div class="audio-visualizer position-relative d-flex align-items-center justify-content-center" style="width: 100%; height: 120px;">
+                            <div class="play-btn position-relative z-2" id="playPause">
+                                <div id="playIcon">&#9658;</div>
+                            </div>
                             <audio id="bgMusic" src="audio/song.mp3"></audio>
                         </div>
-                        <!-- <button class="button" onclick="toggleAudio(this)">
-                            <span class="icon">
-                                <img src="img/paint-brush_11256660.png" alt="">
-                            </span>
-                        </button>
-                        <audio id="audio" src="audio/song.mp3"></audio> -->
+                        <h2 class="font-alt m-0 text-center"> Анна</h2>
                     </div>
                 </div>
             </div>
         </div>
-    </section>    
-    <script>
-        const brush = document.getElementById('playBrush');
-const audio = document.getElementById('bgMusic');
-
-brush.addEventListener('click', () => {
-  if (audio.paused) {
-    audio.play();
-  } else {
-    audio.pause();
-  }
-});
-
-    </script>
+    </section>
     <section id="the-couple" class="position-relative">
         <div class="container">
             <div class="row mb-5">
@@ -157,9 +139,7 @@ brush.addEventListener('click', () => {
             </div>
         </div>
     </footer>
-    <audio autoplay controls>
-        <source src="audio/song.mp3" type="audio/mp3">
-    </audio>
+    <script src="js/audio.js"></script>
 </body>
 
 </html>
