@@ -5218,6 +5218,7 @@ footer {
     width: 60px;
     height: 60px;
     font-size: 1.4rem;
+    padding: 14px;
     color: white;
     display: flex;
     align-items: center;
@@ -5228,8 +5229,8 @@ footer {
   }
   #playIcon {
     font-size: 1.5rem;
-    height: 30px;
-    width: 30px;
+    height: 100%;
+    width: 100%;
     text-align: center;
   }
   .play-btn:hover {
