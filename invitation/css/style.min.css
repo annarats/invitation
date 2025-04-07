@@ -5172,7 +5172,7 @@ footer {
         grid-template-columns: repeat(2, 1fr);
     }
 }
-@media(max-width:720px){
+@media(max-width:480px){
     .icon-event::after {
         height: 140px;
     }
