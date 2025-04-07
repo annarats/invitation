@@ -5,9 +5,9 @@ const playBtn = document.getElementById('playPause');
   playBtn.addEventListener('click', () => {
     if (music.paused) {
       music.play();
-      playIcon.innerHTML = '&#10073;&#10073;';
+      playIcon.innerHTML = '<i class="fas fa-pause"></i>';
     } else {
       music.pause();
-      playIcon.innerHTML = '&#9658;';
+      playIcon.innerHTML = '<i class="fas fa-play"></i>';
     }
   });
